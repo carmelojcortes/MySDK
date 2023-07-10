@@ -6,6 +6,8 @@ public struct AppUserView: View {
     
     @State var user: AppUser = .init(name: "Pepe")
     
+    public init() {}
+    
     public var body: some View {
         VStack(alignment: .center) {
             Image(resource: "locked_bg_1")
