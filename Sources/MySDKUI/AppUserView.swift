@@ -2,11 +2,11 @@ import SwiftUI
 import NukeUI
 import MySDKCore
 
-struct AppUserView: View {
+public struct AppUserView: View {
     
     @State var user: AppUser = .init(name: "Pepe")
     
-    var body: some View {
+    public var body: some View {
         VStack(alignment: .center) {
             Image(resource: "locked_bg_1")
             Text("Hola soy \(user.name)")
