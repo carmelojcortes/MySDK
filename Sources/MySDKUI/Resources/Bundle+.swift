@@ -6,7 +6,7 @@ public let localBundle = Bundle.resourcesBundle
 
 private final class CurrentBundleFinder {}
 
-private let packageName: String = "MySDKUI"
+private let packageName: String = "MySDK"
 private let targetName: String = "MySDKUI"
 
 extension Foundation.Bundle {
